@@ -1,0 +1,9 @@
+body {
+    font-style: bold;
+}
+
+
+#after_submit {
+
+    visibility: hidden;
+}

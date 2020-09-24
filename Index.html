@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Computer Coding Quiz</title>
+    <link rel="stylesheet" href=Style.css>
+    <script  src="Scpt.js"></script>
+</head>
+<body>
+    
+    <h1>Bootcamp Coding Quiz</h1>
+<br>
+
+   
+<form id="quiz" name="quiz">
+ <ul>          
+ <p>1. Commonly used data types Do Not include? </p>
+ <input type="radio" id="strings" name="question1" value="Strings">
+  <label for="strings">Strings</label><br>
+ 
+  <input type="radio" id="boolean" name="question1" value="Booleans">
+  <label for="boolean">Booleans</label><br>
+ 
+  <input type="radio" id="numbers" name="question1" value="Numbers">
+  <label for="numbers">Numbers</label><br>
+  
+  <input type="radio" id="alert" name="question1" value="Alerts">
+  <label for="alert">Alerts</label><br>
+
+
+    <p>2. The condition in an if/else is enclosed within? </p>
+    <input type="radio" id="Quotes" name="question2" value="Quotes">
+    <label for="Quotes">Quotes</label><br>
+  
+    <input type="radio" id="Curly" name="question2" value="Curly Brackets">
+    <label for="Curly">Curly Brackets</label><br>
+    
+    <input type="radio" id="Parathesis" name="question2" value="Parathesis">
+    <label for="Parathesis">Parathesis</label><br>
+   
+    <input type="radio" id="Square" name="question2" value="Square Brackets">
+    <label for="Square">Square Brackets</label><br>
+
+    <p>3. Arrays in Javascript can be used to store? </p>
+    <input type="radio" id="nString" name="question3" value="Numbers and Strings">
+    <label for="nString">Numbers and Strings</label><br>
+   
+    <input type="radio" id="other" name="question3" value="Other Arrays">
+    <label for="other">Other Arrays</label><br>
+   
+    <input type="radio" id="boolean" name="question3" value="Booleans">
+    <label for="boolean">Booleans</label><br>
+   
+    <input type="radio" id="above" name="question3" value="All of th above">
+    <label for="above">All of the above</label><br>
+    
+    <p>4. String Values must be enclosed within ___ when being assigned variables. </p>
+    <input type="radio" id="commas" name="question4" value="Commas">
+    <label for="male">Commas</label><br>
+   
+    <input type="radio" id="cb" name="question4" value="Curly Brackets">
+    <label for="male">Curly Brackets</label><br>
+   
+    <input type="radio" id="quo" name="question4" value="Quotes">
+    <label for="quo">Quotes</label><br>
+   
+    <input type="radio" id="para" name="question4" value="Parathesis">
+    <label for="para">Parathesis</label><br><br>
+
+<input id = "button" type ="button" value = "I'm finished!" onclick="Check()" >
+</ul>
+</form>
+<div id= "after_submit">
+    <p id ="number_correct"></p>
+</div>
+</body>
+</html>
